@@ -3,6 +3,8 @@
 
 THIS IS NOT FINISHED!
 
+GameMaker Version Used: 2023.8
+
 ## Current Progress
 Game does load, and you can get into the menu
 
