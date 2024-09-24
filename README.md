@@ -22,6 +22,12 @@ that's all I can find, as player states issue doesn't allow me to test further
 > [!NOTE]
 > Issues are described in more detail within the project notes
 
+### Shit Fixes that will be fixed later
+- Any Scripts or Objects that have Enemy States (baddiestates.xxxxx) within them are completely fucked
+- Some Player Scripts have Playtest 3.2 code, since they failed to decompile
+
+(These Issues are massive, and are stopping this decomp from being playable)
+
 ## Massive Thanks to
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
