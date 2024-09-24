@@ -17,6 +17,9 @@ Things I have Done:
 
 that's all I can find, as player states issue doesn't allow me to test further
 
+> [!NOTE]
+> Issues are described in more detail within the project notes
+
 ## Massive Thanks to
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
