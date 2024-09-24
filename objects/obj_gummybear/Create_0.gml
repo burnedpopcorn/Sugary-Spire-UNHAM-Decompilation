@@ -1,0 +1,14 @@
+grav = 0.5
+hsp = 0
+vsp = 0
+startspr = sprite_index
+mask_index = spr_gummybearM
+depth = 10
+randombuffer = 80 + irandom(40)
+image_speed = 0.2
+panicsprite = 0
+movespeed = 0
+state = states.normal
+goalhsp = 0
+goalvsp = 0
+goalsprite = sprite_index

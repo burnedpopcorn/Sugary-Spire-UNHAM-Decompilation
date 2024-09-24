@@ -1,0 +1,11 @@
+targetRoom = room
+active = true
+trigger = 0
+soundtest = 0
+touched = false
+playerid = -4
+insecret = false
+lock = 0
+depth = 107
+image_speed = 0.35
+start = 0

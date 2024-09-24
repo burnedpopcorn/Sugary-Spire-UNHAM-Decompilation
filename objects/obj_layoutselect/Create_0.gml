@@ -1,0 +1,9 @@
+darkalpha = 0
+finish = 0
+drawy = -100
+selected = 0
+prevselected = 0
+depth = -995
+iconalpha = 1
+musicbuffer = 10
+wavetext = 0

@@ -1,0 +1,10 @@
+fadealpha = 0
+AT = 0
+HAT = 0
+fadein = false
+waitbuffer = 50
+bgwaitalpha = 0
+bgspeed = 0
+bgimageindex = 0
+flashalpha = 1
+flashbuffer = 15

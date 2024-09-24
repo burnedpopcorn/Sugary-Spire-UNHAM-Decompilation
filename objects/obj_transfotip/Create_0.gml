@@ -1,0 +1,11 @@
+text = ["", "", ""]
+type = ""
+visible = true
+alpha = 0
+depth = -901
+finish = 0
+alarm[0] = 200
+obj_tv.showtext = 0
+movexscale = 1
+movesprite = spr_keyfont
+obj_tv.showtext = false

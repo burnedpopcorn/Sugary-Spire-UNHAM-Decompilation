@@ -1,0 +1,3 @@
+so i basically just 
+- replaced rt shell's object with the template on one Github
+- the fucked up function in obj_Options_Modded/Audio/Video might be fixed, idk

@@ -1,0 +1,27 @@
+List of Scripts that failed to Decompile
+(so i used Playtest 3.2 code to terribly replace it)
+
+scr_player_uppercut
+// ^ REPLACED
+scr_player_drown
+// ^ No player state from Playtest Found :(
+scr_player_fireass
+// ^ REPLACED
+scr_player_cottonroll
+// ^ REPLACED
+scr_player_cottondrill
+// ^ REPLACED
+scr_player_cotton
+// ^ REPLACED
+scr_player_comingoutdoor
+// ^ REPLACED
+scr_player_bossintro
+// ^ REPLACED
+scr_cutscene_rossetteMines
+// ^ REPLACED
+scr_player_machtumble
+// ^ REPLACED
+scr_player_backtohub
+// ^ No player state from Playtest Found :(
+
+FIX WHEN UTMT FIXES STATIC VARIABLES NOT BEING DECOMPILABLE!!!
