@@ -1,27 +1,32 @@
 List of Scripts that failed to Decompile
-(so i used Playtest 3.2 code to terribly replace it)
+(HAS BEEN COMPLETELY FIXED!!!)
 
 scr_player_uppercut
-// ^ REPLACED
+// ^ DONE
 scr_player_drown
-// ^ No player state from Playtest Found :(
+// ^ DONE
 scr_player_fireass
-// ^ REPLACED
+// ^ DONE
 scr_player_cottonroll
-// ^ REPLACED
+// ^ DONE
 scr_player_cottondrill
-// ^ REPLACED
+// ^ DONE
 scr_player_cotton
-// ^ REPLACED
+// ^ DONE
 scr_player_comingoutdoor
-// ^ REPLACED
+// ^ DONE
 scr_player_bossintro
-// ^ REPLACED
+// ^ DONE
 scr_cutscene_rossetteMines
-// ^ REPLACED
+// ^ DONE
 scr_player_machtumble
-// ^ REPLACED
+// ^ DONE
 scr_player_backtohub
-// ^ No player state from Playtest Found :(
+// ^ DONE
 
-FIX WHEN UTMT FIXES STATIC VARIABLES NOT BEING DECOMPILABLE!!!
+UTMT ENUM -> In Game ENUM
+
+UnknownEnum.Value_0 == states.normal
+UnknownEnum.Value_64 == states.crouchslide
+
+look at scr_playerinit for a better list

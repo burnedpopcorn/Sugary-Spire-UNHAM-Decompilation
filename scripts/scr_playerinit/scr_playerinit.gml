@@ -1,128 +1,128 @@
 enum states {
-    normal,
-    titlescreen,
-    hookshot,
-    slap,
-    charge,
-    cheesepep,
-    cheeseball,
-    cheesepepstick,
-    boxxedpep,  
-    pistolaim,  
-    climbwall,  
-    knightpepslopes,  
-    portal,  
-    secondjump,  
-    chainsawbump,  
-    handstandjump,  
-    gottreasure,  
-    knightpep,  
-    knightpepattack,  
-    meteorpep,  
-    bombpep,  
-    grabbing,  
-    chainsawpogo,  
-    shotgunjump,  
-    stunned,  
-    highjump,  
-    chainsaw,  
-    facestomp,  
-    timesup,  
-    machroll,  
-    pistol,  
-    shotgun,  
-    machfreefall,  
-    throwing,  
-    superslam,  
-    slam,  
-    skateboard,  
-    grind,  
-    grab,  
-    punch,  
-    backkick,  
-    uppunch,  
-    shoulder,  
-    backbreaker,  
-    bossdefeat,  
-    bossintro,  
-    smirk,  
-    pizzathrow,  
-    gameover,  
-    Sjumpland,  
-    freefallprep,  
-    runonball,  
-    boulder,  
-    keyget,  
-    tackle,  
-    slipnslide,  
-    ladder,  
-    jump,  
-    victory,  
-    comingoutdoor,  
-    Sjump,  
-    Sjumpprep,  
-    crouch,  
-    crouchjump,  
-    crouchslide,  
-    mach1,  
-    mach2,  
-    mach3,  
-    machslide,  
-    bump,  
-    hurt,  
-    freefall,  
-    freefallland,  
-    hang,  
-    door,  
-    barrelnormal,  
-    barrelfall,  
-    barrelmach1,  
-    barrelmach2,  
-    barrelfloat,  
-    barrelcrouch,  
-    barrelslipnslide,  
-    barrelroll,  
-    current,  
-    finishingblow,  
-    cotton,  
-    uppercut,  
-    pal,  
-    shocked,  
-    bushdisguise,  
-    parry,  
-	tumble,
-    talkto,  
-    puddle,					 
-    cottondrill,			 
-    cottonroll,				 
-    fling,					 
-    breakdance,				 
-	propeller,				
-	mixnbrew,				
-    minecart,				 
-	fireass,				
-    squished,				 
-    machtumble,				 
-	pizzano,				
-	rocketfistpizzano,		 
-	coneboyinhale1,			 
-	coneboyinhale2,			 
-	coneboyinhale3,			 
-	geyser,					 
-	pizzanotwirl,			 
-	pizzanoshoulderbash,	 
-	pizzanowallcling,		 
-	actor,					 
-	mini,					
-	minecartspin,			
-	secretportal,			
-	backtohub,				
-	drown,					
-	hitenemy,				
-	noclip,
-	// unneeded now
-	//machpizzano
-    
+    normal,							//	0
+    titlescreen,					//	1
+    hookshot,						//	2
+    slap,							//	3
+    charge,							//	4
+    cheesepep,						//	5
+    cheeseball,						//	6
+    cheesepepstick,					//	7
+    boxxedpep,						//	8
+    pistolaim,						//	9
+    climbwall,						//	10
+    knightpepslopes,				//	11
+    portal,							//	12
+    secondjump,						//	13
+    chainsawbump,					//	14
+    handstandjump,					//	15
+    gottreasure,					//	16
+    knightpep,						//	17
+    knightpepattack,				//	18
+    meteorpep,						//	19
+    bombpep,						//	20
+    grabbing,						//	21
+    chainsawpogo,					//	22
+    shotgunjump,					//	23
+    stunned,						//	24
+    highjump,						//	25
+    chainsaw,						//	26
+    facestomp,						//	27
+    timesup,						//	28
+    machroll,						//	29
+    pistol,							//	30
+    shotgun,						//	31
+    machfreefall,					//	32
+    throwing,						//	33
+    superslam,						//	34
+    slam,							//	35
+    skateboard,						//	36
+    grind,							//	37
+    grab,							//	38
+    punch,							//	39
+    backkick,						//	40
+    uppunch,						//	41
+    shoulder,						//	42
+    backbreaker,					//	43
+    bossdefeat,						//	44
+    bossintro,						//	45
+    smirk,							//	46
+    pizzathrow,						//	47
+    gameover,						//	48
+    Sjumpland,						//	49
+    freefallprep,					//	50
+    runonball,						//	51
+    boulder,						//	52
+    keyget,							//	53
+    tackle,							//	54
+    slipnslide,						//	55
+    ladder,							//	56
+    jump,							//	57
+    victory,						//	58
+    comingoutdoor,					//	59
+    Sjump,							//	60
+    Sjumpprep,						//	61
+    crouch,							//	62
+    crouchjump,						//	63
+    crouchslide,					//	64
+    mach1,							//	65
+    mach2,							//	66
+    mach3,							//	67
+    machslide,						//	68
+    bump,							//	69
+    hurt,							//	70
+    freefall,						//	71
+    freefallland,					//	72
+    hang,							//	73
+    door,							//	74
+    barrelnormal,					//	75
+    barrelfall,						//	76
+    barrelmach1,					//	77
+    barrelmach2,					//	78
+    barrelfloat,					//	79
+    barrelcrouch,					//	80
+    barrelslipnslide,				//	81
+    barrelroll,						//	82
+    current,						//	83
+    finishingblow,					//	84
+    cotton,							//	85
+    uppercut,						//	86
+    pal,							//	87
+    shocked,						//	88
+    bushdisguise,					//	89
+    parry,							//	90
+	
+	// past this is un-organized and is fucked up !!!!
+	
+	tumble,							//	93
+    talkto,							//	91
+    puddle,							//	92
+    cottondrill,					//	94
+    cottonroll,						//	95
+    fling,							//	96
+    breakdance,						//	97
+	propeller,						//	109
+	mixnbrew,						//	110
+    minecart,						//	98
+	fireass,						//	103
+    squished,						//	99
+    machtumble,						//	100
+	pizzano,						//	102
+	rocketfistpizzano,				//	101
+	coneboyinhale1,					//	106
+	coneboyinhale2,					//	107
+	coneboyinhale3,					//	108
+	geyser,							//	104
+	pizzanotwirl,					//	111
+	pizzanoshoulderbash,			//	112
+	pizzanowallcling,				//	113
+	actor,							//	105
+	mini,							//	114
+	minecartspin,					//	115
+	secretportal,					//	116
+	backtohub,						//	117
+	drown,							//	118
+	hitenemy,						//	119
+	noclip,							//	120
 };
 function scr_playerstate() //scr_playerstate
 {
