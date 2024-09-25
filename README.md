@@ -6,7 +6,7 @@ THIS IS NOT FINISHED!
 GameMaker Version Used: 2023.8
 
 ## Current Progress
-Game does load, and you can get into the menu
+Game does load, and you can get into the Main Menu and even In Game (kinda)
 
 Things I have Done:
 - Added Enums for Player States, Enemy States, Confetti States, and basically anywhere that needed them
