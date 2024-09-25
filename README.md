@@ -40,3 +40,10 @@ that's all I can find, as this issue doesn't allow me to test further
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
 
 (Note that none of these people have ANY association with this decompilation, and don't even know I made it)
+
+> [!IMPORTANT]
+> I'm not gonna organize it within GameMaker
+> Cry about it
+> Literally just use GMS2 Search, its not hard
+
+> even my fucking laptop built with an Intel Atom can handle it, so you can too
