@@ -12,21 +12,28 @@ Things I have Done:
 - Added Enums for Player States, Enemy States, Confetti States, and basically anywhere that needed them
 - Removed duplicated room code
 - Fixed any Variables used as Functions, as UTMT does not support decompiling those
-- Used Playtest 3.2 code to replace scripts (almost entirely player state scripts) that failed to decompile (UTMT issue again, and will NOT be a final solution)
+- Fixed any scripts that failed to decompile, using a unofficial build of UTMT that uses UnderAnalyizer instead of GML Decompiler
 
 ## Issues
-- Many Player States do not function correctly, and usually don't display or freezes the game (due to the last listed reason above)
+- Player is stuck and can only teleport to the edges of screen in outer_room1 (Outside Tower Room)
 
-that's all I can find, as player states issue doesn't allow me to test further
+that's all I can find, as this issue doesn't allow me to test further
 
 > [!NOTE]
 > Issues are described in more detail within the project notes
+>
+> And I added a Feature that Unlocks Pizzano by pressing ALT in Main Menu, so yeah...
 
-### Shit Fixes that will be fixed later
+### Other Shit
 - Any Scripts or Objects that have Enemy States (baddiestates.xxxxx) within them are completely fucked
-- Some Player Scripts have Playtest 3.2 code, since they failed to decompile
 
-(These Issues are massive, and are stopping this decomp from being playable)
+> Because my dumbass decided copy and pasting Playtest 3.2 code, and not saving old code was a good idea
+>
+> Yes, I'm stupid for doing that
+
+> and this also might affect Confetti states... fuck
+
+(This Issue is pretty bad, and needs to be corrected by decompiling the affected scripts)
 
 ## Massive Thanks to
 - QuantumV, for his decompiler
