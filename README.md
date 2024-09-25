@@ -12,7 +12,7 @@ Things I have Done:
 - Added Enums for Player States, Enemy States, Confetti States, and basically anywhere that needed them
 - Removed duplicated room code
 - Fixed any Variables used as Functions, as UTMT does not support decompiling those
-- Fixed any scripts that failed to decompile, using a unofficial build of UTMT that uses UnderAnalyizer instead of GML Decompiler
+- Fixed any scripts that failed to decompile, using an unofficial build of UTMT that uses UnderAnalyzer instead of GML Decompiler
 
 ## Issues
 - Player is stuck and can only teleport to the edges of screen in outer_room1 (Outside Tower Room)
@@ -38,6 +38,8 @@ that's all I can find, as this issue doesn't allow me to test further
 ## Massive Thanks to
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
+- The Sugary Spire Developers, for making Sugary Spire
+- The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire (and they probably would hate me if they knew I existed)
 
 (Note that none of these people have ANY association with this decompilation, and don't even know I made it)
 
