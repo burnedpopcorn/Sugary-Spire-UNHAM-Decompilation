@@ -43,7 +43,9 @@ that's all I can find, as this issue doesn't allow me to test further
 
 > [!IMPORTANT]
 > I'm not gonna organize it within GameMaker
+>
 > Cry about it
+>
 > Literally just use GMS2 Search, its not hard
 
 > even my fucking laptop built with an Intel Atom can handle it, so you can too
