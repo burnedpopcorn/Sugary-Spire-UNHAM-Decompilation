@@ -16,9 +16,7 @@ Things I have Done:
 > Unofficial UTMT with UnderAnalyzer: https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/1814233921.zip
 
 ## Issues
-- Player is stuck and can only teleport to the edges of screen in outer_room1 (Outside Tower Room)
-
-that's all I can find, as this issue doesn't allow me to test further
+- Game Freeze when loading room hub_new (the Main Hub Room)
 
 > [!NOTE]
 > Issues are described in more detail within the project notes
@@ -39,6 +37,8 @@ that's all I can find, as this issue doesn't allow me to test further
 ## Massive Thanks to
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
+- ygxa, for fixing player collisions and contributing to this decomp
+
 - The Sugary Spire Developers, for making Sugary Spire
 - The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire 
 > they probably would hate me if they knew I existed
