@@ -18,6 +18,8 @@ Things I have Done:
 ## Issues
 - Game Freeze when loading room hub_new (the Main Hub Room)
 
+After much time doing trail and error, I am certain this is due to obj_startgate, so yeah, fuck
+
 > [!NOTE]
 > Issues are described in more detail within the project notes
 >
