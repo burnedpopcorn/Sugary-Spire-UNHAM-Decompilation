@@ -16,21 +16,13 @@ Things I have Done:
 > Unofficial UTMT with UnderAnalyzer: https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/1814233921.zip
 
 ## Issues
-
-> [!NOTE]
-> Issues are described in more detail within the project notes
->
-> And I added a Feature that Unlocks Pizzano by pressing ALT in Main Menu, so yeah...
-
 - Any Scripts or Objects that have Enemy States (baddiestates.xxxxx) within them are completely fucked
 
-> Because my dumbass decided copy and pasting Playtest 3.2 code, and not saving old code was a good idea
->
-> Yes, I'm stupid for doing that
-
-> and this also might affect Confetti states... fuck
-
 (This Issue is pretty bad, and needs to be corrected by decompiling the affected scripts with UTMT again)
+
+### Other Shit
+- Issues are described in more detail within the project notes
+- And I added a Feature that Unlocks Pizzano by pressing ALT in Main Menu, so yeah...
 
 ## Massive Thanks to
 - ygxa, for fixing player collisions and contributing to this decomp
