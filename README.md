@@ -16,16 +16,12 @@ Things I have Done:
 > Unofficial UTMT with UnderAnalyzer: https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/1814233921.zip
 
 ## Issues
-- Game Freeze when loading room hub_new (the Main Hub Room)
-
-After much time doing trail and error, I am certain this is due to obj_startgate, so yeah, fuck
 
 > [!NOTE]
 > Issues are described in more detail within the project notes
 >
 > And I added a Feature that Unlocks Pizzano by pressing ALT in Main Menu, so yeah...
 
-### Other Shit
 - Any Scripts or Objects that have Enemy States (baddiestates.xxxxx) within them are completely fucked
 
 > Because my dumbass decided copy and pasting Playtest 3.2 code, and not saving old code was a good idea
@@ -34,12 +30,13 @@ After much time doing trail and error, I am certain this is due to obj_startgate
 
 > and this also might affect Confetti states... fuck
 
-(This Issue is pretty bad, and needs to be corrected by decompiling the affected scripts)
+(This Issue is pretty bad, and needs to be corrected by decompiling the affected scripts with UTMT again)
 
 ## Massive Thanks to
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
 - ygxa, for fixing player collisions and contributing to this decomp
+
 
 - The Sugary Spire Developers, for making Sugary Spire
 - The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire 
