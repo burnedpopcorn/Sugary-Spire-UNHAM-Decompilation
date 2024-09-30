@@ -1,0 +1,52 @@
+so basically i need to fix ALL scripts and objects that contain even a single baddie state mention
+
+Objects and Scripts that need to be re-decompiled:
+
+(Objects)								(Events)
+
+- obj_sluggy							(Step)
+- obj_geyserspawner						(Create)
+- obj_parryhitbox						( <> obj_charcherry and <> obj_hurtbox)
+- obj_taserhitbox						(Step)
+- obj_crackerkicker_kickhitbox			(Begin Step)
+- obj_crackerkicker						(Create, Step)
+- obj_charger							(Create, Step)
+- obj_enemybird							(Step, Begin Step, End Step)
+- obj_applejim							(Create, Step, End Step, <> obj_player)
+- obj_officerwhoopiepie					(Create, Step)
+- obj_charcherry						(Create, Step, <> obj_player)
+- obj_coneboy							(Create, Step)
+- obj_cottonwitch						(Create, Step)
+- obj_swedishfish						(Create, Step)
+- obj_forkhitbox						(Step)
+- obj_knight							(Create, Step)
+- obj_gumballmachine					(Create, Step)
+- obj_gumslime							(Create, Step)
+- obj_baddiecollisionbox				(Step)
+- obj_baddie							(Begin Step, End Step, Room Start, <> obj_slaphitbox)
+- obj_cherrycardboard					(Create, Step)
+- obj_babybear							(Create, Step)
+- obj_forkhitbox189						(Step, <> obj_player)
+- obj_googlyjuice						(Create, Step)
+- obj_sluggyhitbox						(Step)
+
+(Scripts)
+
+- scr_scareenemy
+- scr_enemy_kick
+- scr_applejim_bash
+- scr_enemy_throw
+- scr_enemy_land
+- scr_enemy_stun
+- scr_enemy_turn
+- scr_enemy_idle
+- scr_enemy hit
+- scr_enemy_grabbed
+- scr_player_finishingblow
+- scr_playerN_hookshot
+- scr_player_superslam
+- scr_player_Sjump
+- scr_enemy_walk
+- scr_enemy_charge
+- scr_enemy_slugjump
+- scr_enemy_slugidle

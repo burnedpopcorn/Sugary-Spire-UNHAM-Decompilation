@@ -1058,6 +1058,7 @@
     {"name":"spr_crack_idle","order":1053,"path":"sprites/spr_crack_idle/spr_crack_idle.yy",},
     {"name":"spr_candy_idle","order":1054,"path":"sprites/spr_candy_idle/spr_candy_idle.yy",},
     {"name":"bg_theaterhub2","order":1055,"path":"sprites/bg_theaterhub2/bg_theaterhub2.yy",},
+    {"name":"fixing baddie enums and scripts","order":1,"path":"notes/fixing baddie enums and scripts/fixing baddie enums and scripts.yy",},
     {"name":"spr_player_slipnslidestart","order":1056,"path":"sprites/spr_player_slipnslidestart/spr_player_slipnslidestart.yy",},
     {"name":"spr_crack_panic","order":1057,"path":"sprites/spr_crack_panic/spr_crack_panic.yy",},
     {"name":"spr_player_slipnslide","order":1058,"path":"sprites/spr_player_slipnslide/spr_player_slipnslide.yy",},
