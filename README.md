@@ -17,6 +17,8 @@ Things I have Done:
 
 ## Issues
 - Any Scripts or Objects that have Enemy States (baddiestates.xxxxx) within them are completely fucked
+> [!IMPORTANT]
+> Any Rooms with baddies will crash the game, but this is something I will fix very soon, as it is my fault
 
 (This Issue is pretty bad, and needs to be corrected by decompiling the affected scripts with UTMT again)
 
