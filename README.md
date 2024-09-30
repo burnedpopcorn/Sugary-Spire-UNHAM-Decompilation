@@ -33,16 +33,14 @@ Things I have Done:
 (This Issue is pretty bad, and needs to be corrected by decompiling the affected scripts with UTMT again)
 
 ## Massive Thanks to
-- QuantumV, for his decompiler
-- zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
 - ygxa, for fixing player collisions and contributing to this decomp
 
-
+### Also thanks to
+- QuantumV, for his decompiler
+- zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
 - The Sugary Spire Developers, for making Sugary Spire
 - The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire 
 > they probably would hate me if they knew I existed
-
-(Note that none of these people have ANY association with this decompilation, and don't even know I made it)
 
 > [!IMPORTANT]
 > I'm not gonna organize it within GameMaker
