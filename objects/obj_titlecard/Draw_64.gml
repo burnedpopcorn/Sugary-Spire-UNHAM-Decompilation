@@ -9,8 +9,9 @@ if start
     {
         var head = noisehead[i]
         if (!head.visible)
-        {
-        }
+			continue;
+        //{
+        //}
         else
         {
             head.visual_scale = approach(head.visual_scale, 1, 0.25)

@@ -26,12 +26,12 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"Region_active","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"zoom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampTop","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampLeft","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampBottom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":4,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampRight","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":4,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"Region_active","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"zoom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampTop","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampLeft","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampBottom","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":3,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ClampRight","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"true","varType":3,},
   ],
   "solid": false,
   "spriteId": {

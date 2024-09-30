@@ -1670,7 +1670,6 @@
     {"name":"scr_enemy_turn","order":1665,"path":"scripts/scr_enemy_turn/scr_enemy_turn.yy",},
     {"name":"scr_enemy_walk","order":1666,"path":"scripts/scr_enemy_walk/scr_enemy_walk.yy",},
     {"name":"scr_pizzano_twirl","order":1667,"path":"scripts/scr_pizzano_twirl/scr_pizzano_twirl.yy",},
-    {"name":"game freeze","order":1,"path":"notes/game freeze/game freeze.yy",},
     {"name":"scr_playersounds","order":1668,"path":"scripts/scr_playersounds/scr_playersounds.yy",},
     {"name":"scr_enemy_throw","order":1669,"path":"scripts/scr_enemy_throw/scr_enemy_throw.yy",},
     {"name":"draw_set_blend_mode","order":1670,"path":"scripts/draw_set_blend_mode/draw_set_blend_mode.yy",},

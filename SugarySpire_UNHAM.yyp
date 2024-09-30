@@ -1698,7 +1698,6 @@
     {"id":{"name":"scr_enemy_turn","path":"scripts/scr_enemy_turn/scr_enemy_turn.yy",},},
     {"id":{"name":"scr_enemy_walk","path":"scripts/scr_enemy_walk/scr_enemy_walk.yy",},},
     {"id":{"name":"scr_pizzano_twirl","path":"scripts/scr_pizzano_twirl/scr_pizzano_twirl.yy",},},
-    {"id":{"name":"game freeze","path":"notes/game freeze/game freeze.yy",},},
     {"id":{"name":"scr_playersounds","path":"scripts/scr_playersounds/scr_playersounds.yy",},},
     {"id":{"name":"scr_enemy_throw","path":"scripts/scr_enemy_throw/scr_enemy_throw.yy",},},
     {"id":{"name":"draw_set_blend_mode","path":"scripts/draw_set_blend_mode/draw_set_blend_mode.yy",},},

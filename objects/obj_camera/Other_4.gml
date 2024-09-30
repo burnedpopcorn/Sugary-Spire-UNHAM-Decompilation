@@ -9,7 +9,8 @@ cam_langle = 0
 var _region = noone
 with (obj_cameraRegion)
 {
-    if (Region_active && self.activationCode())
+    //if (Region_active && self.activationCode())
+	if (Region_active && activationCode())
     {
         _region = id
         with (other)

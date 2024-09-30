@@ -5,7 +5,8 @@ if (true && keyboard_check(ord("C")))
     _debugZOOM = true
 with (obj_cameraRegion)
 {
-    if (Region_active && self.activationCode())
+    //if (Region_active && self.activationCode())
+	if (Region_active && activationCode())
     {
         _region = id
         with (other)

@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "entryway_1",
-  "creationCodeFile": "${project_dir}/rooms/entryway_1/RoomCreationCode.gml",
+  "creationCodeFile": "rooms/entryway_1/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
