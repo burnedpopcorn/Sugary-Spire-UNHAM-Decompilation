@@ -1,5 +1,5 @@
-if (point_in_circle(x, y, obj_player.x + (75 * obj_player.xscale), obj_player.y, 125) && obj_player.inhaling && state != baddiestates.inhaled)
-	state = baddiestates.inhaled;
+if (point_in_circle(x, y, obj_player.x + (75 * obj_player.xscale), obj_player.y, 125) && obj_player.inhaling && state != baddiestates.panic)
+	state = baddiestates.panic;
 if (state == baddiestates.stun && stunned > 40 && !birdcreated)
 {
 	birdcreated = true;
@@ -17,7 +17,7 @@ if (((obj_player.x > (x - 400) && obj_player.x < (x + 400)) && (y <= (obj_player
 		if (state == baddiestates.walk || state == baddiestates.idle)
 		{
 			image_index = 0;
-			state = states.cheesepepstick;
+			state = baddiestates.thrown//states.cheesepepstick;
 			if (x != obj_player.x)
 				image_xscale = -sign(x - obj_player.x);
 			sprite_index = spr_throw;
@@ -30,7 +30,7 @@ if (state != baddiestates.grabbed)
 	depth = 0;
 if (state != baddiestates.stun)
 	thrown = false;
-if (!boundbox && state != baddiestates.inhaled)
+if (!boundbox && state != baddiestates.panic)
 {
 	with (instance_create(x, y, obj_baddiecollisionbox))
 	{

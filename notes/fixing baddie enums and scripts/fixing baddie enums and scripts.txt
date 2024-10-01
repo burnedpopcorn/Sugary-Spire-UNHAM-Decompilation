@@ -8,31 +8,55 @@ NOTE THAT THERE ARE 20 Baddie States now, and 120 Player States
 (Objects)								(Events)
 
 - obj_sluggy							(Step)
+^ DONE
 - obj_geyserspawner						(Create)
+^ DONE
 - obj_parryhitbox						( <> obj_charcherry and <> obj_hurtbox)
+^ DONE
 - obj_taserhitbox						(Step)
+^ DONE
 - obj_crackerkicker_kickhitbox			(Begin Step)
+^ DONE
 - obj_crackerkicker						(Create, Step)
+^ DONE
 - obj_charger							(Create, Step)
+^ DONE
 - obj_enemybird							(Step, Begin Step, End Step)
+^ DONE
 - obj_applejim							(Create, Step, End Step, <> obj_player)
+^ DONE
 - obj_officerwhoopiepie					(Create, Step)
+^ DONE
 - obj_charcherry						(Create, Step, <> obj_player)
+^ DONE
 - obj_coneboy							(Create, Step)
+^ DONE
 - obj_cottonwitch						(Create, Step)
+^ DONE
 - obj_swedishfish						(Create, Step)
+^ DONE
 - obj_forkhitbox						(Step)
+^ DONE
 - obj_knight							(Create, Step)
+^ DONE
 - obj_gumballmachine					(Create, Step)
+^ DONE
 - obj_gumslime							(Create, Step)
+^ DONE
 - obj_baddiecollisionbox				(Step)
+^ DONE
 - obj_baddie							(Begin Step, End Step, Room Start, <> obj_slaphitbox)
 ^ DONE
 - obj_cherrycardboard					(Create, Step)
+^ DONE
 - obj_babybear							(Create, Step)
+^ DONE
 - obj_forkhitbox189						(Step, <> obj_player)
+^ DONE
 - obj_googlyjuice						(Create, Step)
+^ DONE
 - obj_sluggyhitbox						(Step)
+^ DONE
 
 (Scripts)
 

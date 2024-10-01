@@ -18,3 +18,24 @@
 	slugjump,				// 17
 	slugparry,				// 18
 	prepdead				// 19
+	
+	normal,							//	0
+    titlescreen,					//	1
+    hookshot,						//	2
+    slap,							//	3
+    charge,							//	4
+    cheesepep,						//	5
+    cheeseball,						//	6
+    cheesepepstick,					//	7
+    boxxedpep,						//	8
+    pistolaim,						//	9
+    climbwall,						//	10
+    knightpepslopes,				//	11
+    portal,							//	12
+    secondjump,						//	13
+    chainsawbump,					//	14
+    handstandjump,					//	15
+    gottreasure,					//	16
+    knightpep,						//	17
+    knightpepattack,				//	18
+    meteorpep,						//	19

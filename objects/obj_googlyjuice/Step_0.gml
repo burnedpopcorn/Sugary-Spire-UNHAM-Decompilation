@@ -12,7 +12,7 @@ if (state != baddiestates.grabbed)
 	depth = 0;
 if (state != baddiestates.stun && state != baddiestates.grabbed)
 	thrown = false;
-if (!boundbox && state != baddiestates.inhaled)
+if (!boundbox && state != baddiestates.panic)
 {
 	with (instance_create(x, y, obj_baddiecollisionbox))
 	{

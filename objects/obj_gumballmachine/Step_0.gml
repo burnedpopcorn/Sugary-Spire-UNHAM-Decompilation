@@ -13,7 +13,7 @@ if (state != baddiestates.thrown && !bombreset)
 	if (state == baddiestates.walk || state == baddiestates.idle)
 	{
 		image_index = 0;
-		state = states.cheesepepstick;
+		state = baddiestates.thrown//states.cheesepepstick;
 		sprite_index = spr_throw;
 	}
 }

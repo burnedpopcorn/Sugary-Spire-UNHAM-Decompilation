@@ -11,7 +11,8 @@ if (instance_exists(ID))
 		switch (object_index)
 		{
 			case obj_knight:
-				if (state != states.normal && state != baddiestates.walk)
+				//if (state != states.normal && state != baddiestates.walk)
+				if (state != baddiestates.idle && state != baddiestates.walk)
 				{
 					hitboxcreate = false;
 					instance_destroy(other.id);

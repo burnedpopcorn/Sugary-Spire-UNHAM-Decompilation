@@ -1,3 +1,80 @@
+function scr_slope()
+{
+    var slope, object_side, slope_start, slope_end, m, platformslope, platobject_side, platslope_start, platslope_end, n;
+    
+    y++;
+    slope = instance_place(x, y, obj_slope);
+    
+    if (slope)
+    {
+        with (slope)
+        {
+            object_side = 0;
+            slope_start = 0;
+            slope_end = 0;
+            
+            if (image_xscale > 0)
+            {
+                object_side = other.bbox_right;
+                slope_start = bbox_bottom;
+                slope_end = bbox_top;
+            }
+            else
+            {
+                object_side = other.bbox_left;
+                slope_start = bbox_top;
+                slope_end = bbox_bottom;
+            }
+            
+            m = (sign(image_xscale) * (bbox_bottom - bbox_top)) / (bbox_right - bbox_left);
+            slope = slope_start - round(m * (object_side - bbox_left));
+            
+            if (other.bbox_bottom >= slope)
+            {
+                other.y--;
+                return true;
+            }
+        }
+    }
+    
+    platformslope = instance_place(x, y, obj_slopeplatform);
+    
+    if (platformslope)
+    {
+        with (platformslope)
+        {
+            platobject_side = 0;
+            platslope_start = 0;
+            platslope_end = 0;
+            
+            if (image_xscale > 0)
+            {
+                platobject_side = other.bbox_right;
+                platslope_start = bbox_bottom;
+                platslope_end = bbox_top;
+            }
+            else
+            {
+                platobject_side = other.bbox_left;
+                platslope_start = bbox_top;
+                platslope_end = bbox_bottom;
+            }
+            
+            n = (sign(image_xscale) * (bbox_bottom - bbox_top)) / (bbox_right - bbox_left);
+            platformslope = platslope_start - round(n * (platobject_side - bbox_left));
+            
+            if (other.bbox_bottom == platformslope && other.bbox_top < platformslope && platobject_side != platformslope)
+            {
+                other.y--;
+                return true;
+            }
+        }
+    }
+    
+    y--;
+    return false;
+}
+/*
 function scr_slope() //scr_slope
 {
     y++
