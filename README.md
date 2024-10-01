@@ -16,11 +16,8 @@ Things I have Done:
 > Unofficial UTMT with UnderAnalyzer: https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/1814233921.zip
 
 ## Issues
-- Any Scripts or Objects that have Enemy States (baddiestates.xxxxx) within them are completely fucked
-> [!IMPORTANT]
-> Any Rooms with baddies will crash the game, but this is something I will fix very soon, as it is my fault
-
-(This Issue is pretty bad, and needs to be corrected by decompiling the affected scripts with UTMT again)
+- obj_slope does not work as intended, as you can just walk through it
+- Enemies that should only spawn Post Sugar Rush still load
 
 ### Other Shit
 - Issues are described in more detail within the project notes
