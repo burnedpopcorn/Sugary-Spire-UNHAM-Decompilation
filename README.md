@@ -16,7 +16,6 @@ Things I have Done:
 > Unofficial UTMT with UnderAnalyzer: https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/1814233921.zip
 
 ## Issues
-- obj_slope does not work as intended, as you can just walk through it
 - Enemies that should only spawn Post Sugar Rush still load
 - Cotton Power-Up doesn't harm any enemy other than the Chocolate Frog
 
