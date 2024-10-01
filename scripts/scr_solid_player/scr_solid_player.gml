@@ -1,3 +1,155 @@
+function scr_solid_player(argument0, argument1, argument2 = false)
+{
+    var old_x, old_y, platform, _list, _platforms, collided, i, _can_collide, grindslope, gobject_side, gslope_start, gslope_end, n, grindsslope, slopeplatform, slopeplatforms, slope, object_side, slope_start, slope_end, m;
+    
+    old_x = x;
+    old_y = y;
+    x = argument0;
+    y = argument1;
+    
+    if (place_meeting(x, y, obj_solid))
+    {
+        x = old_x;
+        y = old_y;
+        return true;
+    }
+    
+    platform = -4;
+    
+    if (place_meeting(x, y, obj_platform))
+    {
+        platform = instance_place(x, y, obj_platform);
+        
+        if (y > old_y && platform.image_yscale > 0)
+        {
+            _list = ds_list_create();
+            _platforms = instance_place_list(x, y, obj_platform, _list, false);
+            collided = false;
+            
+            if (_platforms > 0)
+            {
+                for (i = 0; i < _platforms; i++)
+                {
+                    platform = ds_list_find_value(_list, i);
+                    _can_collide = platform.can_collide(object_index);
+                    
+                    if (_can_collide && place_meeting(x, y, platform) && !place_meeting(x, old_y, platform))
+                        collided = true;
+                }
+            }
+            
+            ds_list_destroy(_list);
+            
+            if (collided && state != states.ladder)
+            {
+                x = old_x;
+                y = old_y;
+                return true;
+            }
+        }
+        else if (y < old_y && platform.image_yscale < 0)
+        {
+            _list = ds_list_create();
+            _platforms = instance_place_list(x, y, obj_platform, _list, false);
+            collided = true;
+            
+            if (_platforms > 0)
+            {
+                for (i = 0; i < _platforms; i++)
+                {
+                    platform = ds_list_find_value(_list, i);
+                    _can_collide = platform.can_collide(object_index);
+                    
+                    if (_can_collide && place_meeting(x, y, platform) && !place_meeting(x, old_y, platform))
+                        collided = false;
+                }
+            }
+            
+            ds_list_destroy(_list);
+            
+            if (collided && state != states.ladder)
+            {
+                x = old_x;
+                y = old_y;
+                return true;
+            }
+        }
+    }
+    
+    if (place_meeting(x, y, obj_minecartRail_Slope))
+    {
+        grindslope = instance_place(x, y, obj_minecartRail_Slope);
+        
+        with (grindslope)
+        {
+            gobject_side = 0;
+            gslope_start = 0;
+            gslope_end = 0;
+            
+            if (image_xscale > 0)
+            {
+                gobject_side = other.bbox_right;
+                gslope_start = bbox_bottom;
+                gslope_end = bbox_top;
+            }
+            else
+            {
+                gobject_side = other.bbox_left;
+                gslope_start = bbox_top;
+                gslope_end = bbox_bottom;
+            }
+            
+            n = (sign(image_xscale) * (bbox_bottom - bbox_top)) / (bbox_right - bbox_left);
+            grindsslope = gslope_start - round(n * (gobject_side - bbox_left));
+            
+            if (other.y >= old_y && can_collide(other.object_index) && other.bbox_bottom == grindsslope && other.bbox_top < grindsslope && gobject_side != grindsslope && !other.cutscene)
+            {
+                other.x = old_x;
+                other.y = old_y;
+                return true;
+            }
+        }
+    }
+    
+    if (place_meeting(x, y, obj_slopeplatform))
+    {
+        slopeplatform = instance_place(x, y, obj_slopeplatform);
+        
+        with (slopeplatform)
+        {
+            gobject_side = 0;
+            gslope_start = 0;
+            gslope_end = 0;
+            
+            if (image_xscale > 0)
+            {
+                gobject_side = other.bbox_right;
+                gslope_start = bbox_bottom;
+                gslope_end = bbox_top;
+            }
+            else
+            {
+                gobject_side = other.bbox_left;
+                gslope_start = bbox_top;
+                gslope_end = bbox_bottom;
+            }
+            
+            n = (sign(image_xscale) * (bbox_bottom - bbox_top)) / (bbox_right - bbox_left);
+            slopeplatforms = gslope_start - round(n * (gobject_side - bbox_left));
+            
+            if (other.y >= old_y && other.bbox_bottom == slopeplatforms && other.bbox_top < slopeplatforms && gobject_side != slopeplatforms && !other.cutscene)
+            {
+                other.x = old_x;
+                other.y = old_y;
+                return true;
+            }
+        }
+    }
+    x = old_x;
+    y = old_y;
+    return false;
+}
+/*
 function scr_solid_player(argument0, argument1, argument2) //scr_solid_player
 {
     if (argument2 == undefined)

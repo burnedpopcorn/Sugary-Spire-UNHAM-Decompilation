@@ -8,6 +8,6 @@ if other.hurtself
     thrown = true
     hsp = other.image_xscale * 20
     vsp = -6
-    state = states.cheeseball
+    state = baddiestates.stun//states.cheeseball
     stunned = 500
 }

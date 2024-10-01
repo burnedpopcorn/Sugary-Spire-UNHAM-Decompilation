@@ -292,6 +292,7 @@
     {"id":{"name":"spr_playerPZ_poundcancelprep","path":"sprites/spr_playerPZ_poundcancelprep/spr_playerPZ_poundcancelprep.yy",},},
     {"id":{"name":"spr_pizzano_wallclimbspin","path":"sprites/spr_pizzano_wallclimbspin/spr_pizzano_wallclimbspin.yy",},},
     {"id":{"name":"spr_pizzano_prepmach3slide","path":"sprites/spr_pizzano_prepmach3slide/spr_pizzano_prepmach3slide.yy",},},
+    {"id":{"name":"enum baddiestates","path":"notes/enum baddiestates/enum baddiestates.yy",},},
     {"id":{"name":"spr_gummybear_papertauntpanic","path":"sprites/spr_gummybear_papertauntpanic/spr_gummybear_papertauntpanic.yy",},},
     {"id":{"name":"spr_playerPZ_poundcancel1","path":"sprites/spr_playerPZ_poundcancel1/spr_playerPZ_poundcancel1.yy",},},
     {"id":{"name":"spr_hubfloor1paintersign","path":"sprites/spr_hubfloor1paintersign/spr_hubfloor1paintersign.yy",},},

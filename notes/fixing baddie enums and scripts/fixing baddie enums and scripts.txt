@@ -27,6 +27,7 @@ NOTE THAT THERE ARE 20 Baddie States now, and 120 Player States
 - obj_gumslime							(Create, Step)
 - obj_baddiecollisionbox				(Step)
 - obj_baddie							(Begin Step, End Step, Room Start, <> obj_slaphitbox)
+^ DONE
 - obj_cherrycardboard					(Create, Step)
 - obj_babybear							(Create, Step)
 - obj_forkhitbox189						(Step, <> obj_player)

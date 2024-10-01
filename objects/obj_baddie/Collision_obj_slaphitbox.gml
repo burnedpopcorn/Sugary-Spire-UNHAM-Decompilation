@@ -1,4 +1,4 @@
-if (object_index != obj_charcherry && (!thrown) && state != states.meteorpep)
+if (object_index != obj_charcherry && (!thrown) && state != baddiestates.prepdead)//states.meteorpep)
 {
     scr_sound(sound_slaphit)
     instance_create((x + obj_player.xscale * 40), y, obj_punchdust)

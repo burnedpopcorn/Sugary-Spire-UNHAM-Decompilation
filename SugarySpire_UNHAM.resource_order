@@ -265,6 +265,7 @@
     {"name":"spr_playerPZ_poundcancelprep","order":260,"path":"sprites/spr_playerPZ_poundcancelprep/spr_playerPZ_poundcancelprep.yy",},
     {"name":"spr_pizzano_wallclimbspin","order":261,"path":"sprites/spr_pizzano_wallclimbspin/spr_pizzano_wallclimbspin.yy",},
     {"name":"spr_pizzano_prepmach3slide","order":262,"path":"sprites/spr_pizzano_prepmach3slide/spr_pizzano_prepmach3slide.yy",},
+    {"name":"enum baddiestates","order":2,"path":"notes/enum baddiestates/enum baddiestates.yy",},
     {"name":"spr_gummybear_papertauntpanic","order":263,"path":"sprites/spr_gummybear_papertauntpanic/spr_gummybear_papertauntpanic.yy",},
     {"name":"spr_playerPZ_poundcancel1","order":264,"path":"sprites/spr_playerPZ_poundcancel1/spr_playerPZ_poundcancel1.yy",},
     {"name":"spr_hubfloor1paintersign","order":265,"path":"sprites/spr_hubfloor1paintersign/spr_hubfloor1paintersign.yy",},
