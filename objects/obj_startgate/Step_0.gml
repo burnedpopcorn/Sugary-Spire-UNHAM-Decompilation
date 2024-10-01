@@ -1,4 +1,4 @@
-//start_parallax = distance_to_object(obj_player) < 150
+start_parallax = distance_to_object(obj_player) < 150
 showtext = false
 if (place_meeting(x, y, obj_player) && (!instance_exists(obj_titlecard)) && obj_player.state != states.backtohub && sprite_index != spr_levelgateclosed)
 {

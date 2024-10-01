@@ -2,16 +2,16 @@
 // the states defaulted to player states
 switch state
 {
-	case baddiestates.idle:
+	case baddiestates.idle:	
 		scr_enemy_idle();
 		break;
-	case baddiestates.turn:
+	case baddiestates.turn:	
 		scr_enemy_turn();
 		break;
-	case baddiestates.walk:
+	case baddiestates.walk:	
 		scr_enemy_walk();
 		break;
-	case baddiestates.land:
+	case baddiestates.land:	
 		scr_enemy_land();
 		break;
 	case baddiestates.hit:
@@ -20,7 +20,7 @@ switch state
 	case baddiestates.charge:
 		scr_enemy_charge();
 		break;
-	case baddiestates.stun:
+	case baddiestates.stun:	
 		scr_enemy_stun();
 		break;
 	case baddiestates.panic:
@@ -85,6 +85,9 @@ switch state
 	case baddiestates.applejimbash:
 		scr_applejim_bash();
 		break;
+	case baddiestates.prepdead:
+        scr_enemy_prepdead();
+        break;
 }
 if (y > (room_height + 64))
     instance_destroy()

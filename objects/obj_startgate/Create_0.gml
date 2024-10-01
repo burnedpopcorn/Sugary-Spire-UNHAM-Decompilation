@@ -6,7 +6,7 @@ showtext = false
 parallax_array = []
 old_depth = depth
 gate_surf = surface_create(sprite_get_width(sprite_index), sprite_get_height(sprite_index))
-//start_parallax = false
+start_parallax = false
 white_alpha = 1
 function add_gate_parallax(argument0, argument1)//@gml_Object_obj_startgate_Create_0(argument0, argument1) //add_gate_parallax@gml_Object_obj_startgate_Create_0
 {

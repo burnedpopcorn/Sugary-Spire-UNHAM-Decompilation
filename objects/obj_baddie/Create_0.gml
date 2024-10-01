@@ -1,24 +1,26 @@
 enum baddiestates
 {
-	idle,
-	charge,
-	turn,
-	walk,
-	land,
-	hit,
-	stun,
-	thrown,
-	grabbed,
-	scared,
-	panic,
-	inhaled,
-	cherrywait,
-	charcherry,
-	applejimbash,
-	kick,
-	slugidle,
-	slugjump,
-	slugparry
+	idle,					// 0
+	charge,					// 1
+	turn,					// 2
+	walk,					// 3
+	land,					// 4
+	hit,					// 5
+	stun,					// 6
+	thrown,					// 7
+	grabbed,				// 8
+	scared,					// 9
+	panic,					// 11
+	inhaled,				// 10
+	cherrywait,				// 12
+	charcherry,				// 13
+	applejimbash,			// 14
+	kick,					// 15
+	slugidle,				// 16
+	slugjump,				// 17
+	slugparry,				// 18
+	// new one appearently
+	prepdead				// 19
 };
 ScareBuffer = 0
 depth = 0

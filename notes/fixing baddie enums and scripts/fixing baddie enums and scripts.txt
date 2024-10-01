@@ -2,6 +2,9 @@ so basically i need to fix ALL scripts and objects that contain even a single ba
 
 Objects and Scripts that need to be re-decompiled:
 
+NOTE THAT THERE ARE 20 Baddie States now, and 120 Player States
+(one baddie state has been added that wasn't present in playtest)
+
 (Objects)								(Events)
 
 - obj_sluggy							(Step)
@@ -33,20 +36,42 @@ Objects and Scripts that need to be re-decompiled:
 (Scripts)
 
 - scr_scareenemy
+^ DONE
 - scr_enemy_kick
+^ DONE
 - scr_applejim_bash
+^ DONE
 - scr_enemy_throw
+^ DONE
 - scr_enemy_land
+^ DONE
 - scr_enemy_stun
+^ DONE
 - scr_enemy_turn
+^ DONE
 - scr_enemy_idle
-- scr_enemy hit
+^ DONE
+- scr_enemy_hit
+^ DONE
 - scr_enemy_grabbed
+^ DONE
 - scr_player_finishingblow
+^ DONE
 - scr_playerN_hookshot
+^ DONE
 - scr_player_superslam
+^ DONE
 - scr_player_Sjump
+^ DONE
 - scr_enemy_walk
+^ DONE
 - scr_enemy_charge
+^ DONE
 - scr_enemy_slugjump
+^ DONE
 - scr_enemy_slugidle
+^ DONE
+
+also do scr_enemy_prepdead
+its a new one i guess
+^ DONE
