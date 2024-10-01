@@ -18,6 +18,7 @@ Things I have Done:
 ## Issues
 - obj_slope does not work as intended, as you can just walk through it
 - Enemies that should only spawn Post Sugar Rush still load
+- Cotton Power-Up doesn't harm any enemy other than the Chocolate Frog
 
 ### Other Shit
 - Issues are described in more detail within the project notes
