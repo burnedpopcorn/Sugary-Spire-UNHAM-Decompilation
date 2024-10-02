@@ -12,7 +12,7 @@ Things I have Done:
 - Added Enums for Player States, Enemy States, Confetti States, and basically anywhere that needed them
 - Removed duplicated room code
 - Fixed any Variables used as Functions, as UTMT does not support decompiling those
-- Fixed any scripts that failed to decompile, using an unofficial build of UTMT that uses UnderAnalyzer instead of GML Decompiler
+- Fixed any scripts that failed to decompile or caused memory leaks/crashes, using an unofficial build of UTMT that uses UnderAnalyzer instead of GML Decompiler
 > Unofficial UTMT with UnderAnalyzer: https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/1814233921.zip
 
 ## Issues
