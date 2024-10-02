@@ -17,7 +17,8 @@ Things I have Done:
 
 ## Issues
 - Enemies that should only spawn Post Sugar Rush still load
-> This is only an issue when playing the old Demo 1 levels
+- Crash when loading a certain room in Crunchy Construction
+> Issues above only happen when playing the old Demo 1 levels
 
 - Cotton Power-Up doesn't harm any enemy other than the Chocolate Frog
 - Swamp and Mines Levels eventually default to CottonTown Rooms
