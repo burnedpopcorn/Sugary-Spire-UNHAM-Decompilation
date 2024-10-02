@@ -1,3 +1,86 @@
+function layer_tilemap_get_id_fixed(argument0)
+{
+    var els, n, i, el;
+    
+    if (layer_exists(argument0))
+    {
+        els = layer_get_all_elements(argument0);
+        n = array_length(els);
+        
+        for (i = 0; i < n; i++)
+        {
+            el = els[i];
+            
+            if (layer_get_element_type(el) == 5)
+                return el;
+        }
+    }
+    
+    return -1;
+}
+
+function layer_background_get_id_fixed(argument0)
+{
+    var els, n, i, el;
+    
+    if (layer_exists(argument0))
+    {
+        els = layer_get_all_elements(argument0);
+        n = array_length(els);
+        
+        for (i = 0; i < n; i++)
+        {
+            el = els[i];
+            
+            if (layer_get_element_type(el) == 1)
+                return el;
+        }
+        
+        return -1;
+    }
+    
+    return -1;
+}
+
+function layer_change_background(argument0, argument1)
+{
+    var a, i, back_id;
+    
+    if (argument0 != argument1)
+    {
+        a = layer_get_all();
+        
+        for (i = 0; i < array_length(a); i++)
+        {
+            back_id = layer_background_get_id_fixed(a[i]);
+            
+            if (layer_background_get_sprite(back_id) == argument0)
+                layer_background_sprite(back_id, argument1);
+        }
+    }
+}
+
+function get_all_layer_type(argument0 = 0)
+{
+    var layernum, a, i, els, layers;
+    
+    layernum = 0;
+    a = layer_get_all();
+    
+    for (i = 0; i < array_length(a); i++)
+    {
+        els = layer_get_all_elements(a[i]);
+        
+        if (layer_get_element_type(els) == argument0)
+            layers[layernum++] = a[i];
+    }
+    
+    if (!layernum)
+        return -4;
+    
+    return layers;
+}
+/*
 var layers;
 function layer_tilemap_get_id_fixed(argument0) //layer_tilemap_get_id_fixed
 {

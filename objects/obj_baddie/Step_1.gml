@@ -42,7 +42,7 @@ switch state
                 instance_create(xstart, ystart, obj_poofeffect)
                 visible = true
                 flash = true
-                state = baddiestates.panic//states.cheeseball
+                state = baddiestates.stun//states.cheeseball
                 vsp = -5
                 squashed = true
                 squashval = 0
