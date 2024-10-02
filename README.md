@@ -1,7 +1,7 @@
 # Sugary Spire UNHAM Decompilation
  A shitty Work-in-Progress Decompilation for the Sugary Spire UNHAM Mod (Crunchy Update)
 
-THIS IS NOT FINISHED!
+This Decomp is not finished, but is Playable, and there are only small issues left
 
 GameMaker Version Used: 2023.8
 
@@ -17,6 +17,8 @@ Things I have Done:
 
 ## Issues
 - Enemies that should only spawn Post Sugar Rush still load
+> This is only an issue when playing the old Demo 1 levels
+
 - Cotton Power-Up doesn't harm any enemy other than the Chocolate Frog
 
 ### Other Shit
