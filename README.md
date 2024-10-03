@@ -41,4 +41,4 @@ Things I have Done:
 >
 > Literally just use GMS2 Search, its not hard
 
-> even my fucking laptop built with an Intel Atom can handle it, so you can too
+> even my fucking laptop built with an Intel Atom can handle GMS Search, so you can too
