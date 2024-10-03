@@ -1,2 +1,2 @@
-targetRoom = mines_2
+targetRoom = mines_1B
 targetDoor = "B"

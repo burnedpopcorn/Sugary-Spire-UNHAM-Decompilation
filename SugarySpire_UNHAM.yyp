@@ -1594,7 +1594,7 @@
     {"id":{"name":"rousr_dissonance_set_match_secret","path":"scripts/rousr_dissonance_set_match_secret/rousr_dissonance_set_match_secret.yy",},},
     {"id":{"name":"scr_player_backbreaker","path":"scripts/scr_player_backbreaker/scr_player_backbreaker.yy",},},
     {"id":{"name":"scr_player_backkick","path":"scripts/scr_player_backkick/scr_player_backkick.yy",},},
-    {"id":{"name":"stuff i did","path":"notes/stuff i did/stuff i did.yy",},},
+    {"id":{"name":"fix mines and swamp target room","path":"notes/fix mines and swamp target room/fix mines and swamp target room.yy",},},
     {"id":{"name":"scr_player_barrelcrouch","path":"scripts/scr_player_barrelcrouch/scr_player_barrelcrouch.yy",},},
     {"id":{"name":"scr_player_barrelfall","path":"scripts/scr_player_barrelfall/scr_player_barrelfall.yy",},},
     {"id":{"name":"scr_player_barrelfloat","path":"scripts/scr_player_barrelfloat/scr_player_barrelfloat.yy",},},
