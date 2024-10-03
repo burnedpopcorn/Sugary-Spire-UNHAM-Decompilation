@@ -27,10 +27,7 @@ Things I have Done:
 - Issues are described in more detail within the project notes
 - And I added a Feature that Unlocks Pizzano by pressing ALT in Main Menu, so yeah...
 
-## Massive Thanks to
-- ygxa, for fixing player collisions and contributing to this decomp
-
-### Also thanks to
+### Thanks to
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
 - The Sugary Spire Developers, for making Sugary Spire
