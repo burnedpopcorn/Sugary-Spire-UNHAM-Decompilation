@@ -27,15 +27,14 @@ Things I have Done:
 - Issues are described in more detail within the project notes
 - And I added a Feature that Unlocks Pizzano by pressing ALT in Main Menu, so yeah...
 
-## Massive Thanks to
-- ygxa, for fixing player collisions and contributing to this decomp
-
-### Also thanks to
+### Thanks to
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
 - The Sugary Spire Developers, for making Sugary Spire
-- The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire 
-> they probably would hate me if they knew I existed
+- The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire
+
+Note that none of the people mentioned above know me/know I even made this decomp
+> they probably would also probably hate me if they knew I existed
 
 > [!IMPORTANT]
 > I'm not gonna organize it within GameMaker
@@ -44,4 +43,4 @@ Things I have Done:
 >
 > Literally just use GMS2 Search, its not hard
 
-> even my fucking laptop built with an Intel Atom can handle it, so you can too
+> even my fucking laptop built with an Intel Atom can handle GMS Search, so you can too
