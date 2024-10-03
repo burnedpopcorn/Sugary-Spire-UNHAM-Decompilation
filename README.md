@@ -31,8 +31,10 @@ Things I have Done:
 - QuantumV, for his decompiler
 - zyledev, for his Playtest 3.2 Decompilation, which I have used as a base
 - The Sugary Spire Developers, for making Sugary Spire
-- The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire 
-> they probably would hate me if they knew I existed
+- The UNHAM Mod Developers, for adding new improvements and features to Sugary Spire
+
+Note that none of the people mentioned above know me/know I even made this decomp
+> they probably would also probably hate me if they knew I existed
 
 > [!IMPORTANT]
 > I'm not gonna organize it within GameMaker
