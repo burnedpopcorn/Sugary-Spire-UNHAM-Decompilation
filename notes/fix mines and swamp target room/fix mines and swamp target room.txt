@@ -2,7 +2,8 @@ highest mines room that is fixed: DONE!
 (mines_10 door c seems unused)
 (mines_6 door b seems unused)
 
-highest swamp room that is fixed: NOT WORKED ON
+highest swamp room that is fixed: DONE!
+(most didn't need fixing anyways)
 
 template for obj_hallway or vertical_hallway:
 
