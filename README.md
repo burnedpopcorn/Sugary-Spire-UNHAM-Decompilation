@@ -20,8 +20,8 @@ Things I have Done:
 - Crash when loading a certain room in Crunchy Construction
 > Issues above only happen when playing the old Demo 1 levels
 
-- Cotton Power-Up doesn't harm any enemy other than the Chocolate Frog
-- Swamp and Mines Levels eventually default to CottonTown Rooms
+- Cotton (Drill) Power-Up doesn't harm any enemy other than the Chocolate Frog
+- Swamp Level eventually defaults to CottonTown Rooms
 
 ### Other Shit
 - Issues are described in more detail within the project notes
