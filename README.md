@@ -21,7 +21,6 @@ Things I have Done:
 > Issues above only happen when playing the old Demo 1 levels
 
 - Cotton (Drill) Power-Up doesn't harm any enemy other than the Chocolate Frog
-- Swamp Level eventually defaults to CottonTown Rooms
 
 ### Other Shit
 - Issues are described in more detail within the project notes
