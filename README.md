@@ -20,7 +20,9 @@ Things I have Done:
 - Some miscellanous enemies are loaded on room start, even if they should only appear post Sugar Rush
 - scr_player_backtohub (Failing to finish a Level) animation is broken
 
-> Small Difference: Intro Movement goes too far, but this is barely an issue
+> Small Difference: Intro Movement goes too far, but this is barely an 
+
+> And this Decomp is currently UNORGANIZED, but this will probably change
 
 ### Other Shit
 - Issues are described in more detail within the project notes
