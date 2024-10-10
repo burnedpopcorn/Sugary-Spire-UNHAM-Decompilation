@@ -1,0 +1,8 @@
+For Enemies that should only appear in SUGAR RUSH
+
+put this in obj cc
+
+panicEscape = 1
+
+highest checked: entryway_11 (DONE)
+looking for: babybear

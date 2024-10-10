@@ -1,7 +1,7 @@
 {
   "resourceType": "GMNotes",
   "resourceVersion": "1.1",
-  "name": "confetti shit",
+  "name": "for panic enemies",
   "parent": {
     "name": "README",
     "path": "folders/README.yy",
