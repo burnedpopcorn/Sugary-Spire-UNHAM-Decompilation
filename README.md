@@ -16,13 +16,8 @@ Things I have Done:
 > Unofficial UTMT with UnderAnalyzer: https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/1814233921.zip
 
 ## Issues
-- Cotton (Drill) Power-Up doesn't harm any enemy other than the Chocolate Frog
-- Some miscellanous enemies are loaded on room start, even if they should only appear post Sugar Rush
 - scr_player_backtohub (Failing to finish a Level) animation is broken
-
-> Small Difference: Intro Movement goes too far, but this is barely an 
-
-> And this Decomp is currently UNORGANIZED, but this will probably change
+- Decomp is currently not organized
 
 ### Other Shit
 - Issues are described in more detail within the project notes
