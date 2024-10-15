@@ -6,3 +6,11 @@ panicEscape = 1
 
 highest checked: entryway_11 (DONE)
 looking for: babybear
+
+MAUNALLY RECHECKING EVERY LEVEL
+
+Starting: Swamp (DONE)
+2nd: CottonTown (DONE)
+CURRENT: Mines (DONE)
+4th: NEW Crunchy (DONE)
+5th: OLD Crunchy (DONE)

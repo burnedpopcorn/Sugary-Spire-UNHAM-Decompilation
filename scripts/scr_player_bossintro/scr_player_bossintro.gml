@@ -12,7 +12,7 @@ function scr_player_bossintro()
     if (hsp != 0)
         sprite_index = spr_move;
     
-    if (Walkbuffer < 40)
+    if (Walkbuffer < 30)//40)
     {
         Walkbuffer++;
     }

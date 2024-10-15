@@ -1,6 +1,7 @@
+global.shitfix = 0;
 function scr_player_backtohub()
 {
-    static standBuffer = 0//40;
+    static standBuffer = 40;
     
     image_alpha = approach(image_alpha, 1, 0.1);
     hsp = 0;
@@ -8,13 +9,19 @@ function scr_player_backtohub()
     if (vsp < 20 && sprite_index != spr_player_slipnslideend && sprite_index != spr_pizzano_sleepend)
         vsp += grav;
     
-    y += vsp;
-    // temp shitfix
-    if (/*y >= huby &&*/ !grounded && vsp > 0)
+	if global.shitfix == 0
+		y += vsp;
+		
+// first argument (y >= huby) is definitely being meet...
+// EVERY REQUIREMENT IS BEING MEET!!!!!
+// BUT THIS FUNCTION IS STILL NOT EXECUTING!!!!
+    //if (y >= huby && !grounded && vsp > 0)
+	if (!grounded && vsp > 0)
     {
+		global.shitfix = 1;
         y = huby;
         grounded = true;
-        standBuffer = 0//40;
+        standBuffer = 40;
         sprite_index = spr_player_slipnslideend;
         
         if (character == "N")
@@ -43,6 +50,7 @@ function scr_player_backtohub()
             image_alpha = 1;
             image_blend = #010000;
             backtohub = 0;
+			global.shitfix = 0;
         }
     }
     

@@ -22,8 +22,7 @@ canrestart = 1
 canexit = 1
 sigmacode = ""
 pauseshake = 0
-//function anon@455@gml_Object_obj_pause_Create_0() //anon@455@gml_Object_obj_pause_Create_0
-function sigmaunlock()
+sigmaunlock = function()
 {
     if (!global.sigma)
     {
@@ -32,16 +31,16 @@ function sigmaunlock()
             case ord("S"):
                 sigmacode += "S"
                 break
-            case 73:
+            case ord("I"):
                 sigmacode += "I"
                 break
-            case 71:
+            case ord("G"):
                 sigmacode += "G"
                 break
-            case 77:
+            case ord("M"):
                 sigmacode += "M"
                 break
-            case 65:
+            case ord("A"):
                 sigmacode += "A"
                 break
         }

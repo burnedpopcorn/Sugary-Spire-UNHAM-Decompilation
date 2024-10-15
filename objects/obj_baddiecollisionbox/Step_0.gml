@@ -62,7 +62,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && !obj_player.
 					}
 				}
 			}
-			if (instance_exists(other.baddieID) && state == states.cotton && sprite_index == spr_cotton_attack)
+			if (instance_exists(other.baddieID) && state == states.cotton && sprite_index == spr_cottonattack)//spr_cotton_attack)
 			{
 				with (other.baddieID)
 				{

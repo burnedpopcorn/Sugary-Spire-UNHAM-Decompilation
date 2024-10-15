@@ -19,7 +19,7 @@ if pause
 {
     if canmove
     {
-        self.sigmaunlock()
+        sigmaunlock()
         scr_getinput()
         if (key_down2 && selected < 3)
         {
