@@ -1,7 +1,7 @@
 # Sugary Spire UNHAM Decompilation
  A Work-in-Progress Decompilation for the Sugary Spire UNHAM Mod (Crunchy Update)
 
-This Decomp is not finished, but is Playable, and there are only small issues left
+This Decomp is basically finished, with the entire game being playable
 
 GameMaker Version Used: 2023.8
 
