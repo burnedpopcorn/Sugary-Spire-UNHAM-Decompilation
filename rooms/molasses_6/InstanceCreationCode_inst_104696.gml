@@ -1,22 +1,10 @@
-//function anon@12@gml_RoomCC_molasses_6_8_Create() //anon@12@gml_RoomCC_molasses_6_8_Create
 condition = function()
 {
-    return (place_meeting(x, y, obj_player) && obj_player.state == 72);
+    return (place_meeting(x, y, obj_player) && obj_player.state == states.freefallland);//72);
 }
-
-//function anon@123@gml_RoomCC_molasses_6_8_Create() //anon@123@gml_RoomCC_molasses_6_8_Create
 output = function()
 {
-    inst_61588644.alarm[1] = 5
-    inst_32550AD4.alarm[1] = 10
-    inst_4523D294.alarm[1] = 1
+    inst_104704.alarm[1] = 5;	// obj_collectablebox (with the marshmellow)
+    inst_104694.alarm[1] = 10;	// obj_collectablebox (with the big pie)
+    inst_104698.alarm[1] = 1;	// obj_collectablebox (with the 2 small candies)
 }
-
-/*
-output = function()
-{
-    104704.alarm[1] = 5
-    104694.alarm[1] = 10
-    104698.alarm[1] = 1
-}
-
