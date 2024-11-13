@@ -1,7 +1,7 @@
 {
   "resourceType": "GMNotes",
   "resourceVersion": "1.1",
-  "name": "fix mines and swamp target room",
+  "name": "optimization",
   "parent": {
     "name": "README",
     "path": "folders/README.yy",

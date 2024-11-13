@@ -1,0 +1,9 @@
+basically 
+
+layer_depth()
+layer_get_all_elements()
+layer_tilemap_get_id()
+
+usually fail
+
+this needs to be fixed to improve performance, and to remove clutter from debug output 
